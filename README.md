@@ -1,0 +1,2 @@
+# LearnPyQt6
+ 
