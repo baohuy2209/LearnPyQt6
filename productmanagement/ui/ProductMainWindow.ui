@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1023</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 85, 255);
+background-color: rgb(255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string>Product Management</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QListWidget" name="listWidgetCategory">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>C1-Case1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>C2-Case2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>C3-Case3</string>
+           </property>
+           <property name="background">
+            <brush brushstyle="NoBrush">
+             <color alpha="255">
+              <red>255</red>
+              <green>85</green>
+              <blue>127</blue>
+             </color>
+            </brush>
+           </property>
+           <property name="foreground">
+            <brush brushstyle="NoBrush">
+             <color alpha="255">
+              <red>255</red>
+              <green>0</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>C4-Case4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>C5-Case5</string>
+           </property>
+           <property name="background">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>0</blue>
+             </color>
+            </brush>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QTableWidget" name="tableWidgetProduct">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>300</height>
+             </size>
+            </property>
+            <row>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>2</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>3</string>
+             </property>
+            </row>
+            <row>
+             <property name="text">
+              <string>4</string>
+             </property>
+            </row>
+            <column>
+             <property name="text">
+              <string>Product ID</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Product Name</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Unit Price</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Quantity</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Cate ID</string>
+             </property>
+            </column>
+            <item row="0" column="0">
+             <property name="text">
+              <string>p1</string>
+             </property>
+            </item>
+            <item row="0" column="1">
+             <property name="text">
+              <string>product 1</string>
+             </property>
+            </item>
+            <item row="0" column="2">
+             <property name="text">
+              <string>100</string>
+             </property>
+            </item>
+            <item row="0" column="3">
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+            <item row="0" column="4">
+             <property name="text">
+              <string>c1</string>
+             </property>
+            </item>
+            <item row="1" column="0">
+             <property name="text">
+              <string>p2</string>
+             </property>
+            </item>
+            <item row="1" column="1">
+             <property name="text">
+              <string>product 2</string>
+             </property>
+            </item>
+            <item row="1" column="2">
+             <property name="text">
+              <string>105</string>
+             </property>
+            </item>
+            <item row="1" column="3">
+             <property name="text">
+              <string>3</string>
+             </property>
+            </item>
+            <item row="1" column="4">
+             <property name="text">
+              <string>c2</string>
+             </property>
+            </item>
+            <item row="2" column="0">
+             <property name="text">
+              <string>p3</string>
+             </property>
+            </item>
+            <item row="2" column="1">
+             <property name="text">
+              <string>product 3</string>
+             </property>
+            </item>
+            <item row="2" column="2">
+             <property name="text">
+              <string>200</string>
+             </property>
+            </item>
+            <item row="2" column="3">
+             <property name="text">
+              <string>2</string>
+             </property>
+            </item>
+            <item row="2" column="4">
+             <property name="text">
+              <string>c3</string>
+             </property>
+            </item>
+            <item row="3" column="0">
+             <property name="text">
+              <string>p4</string>
+             </property>
+            </item>
+            <item row="3" column="1">
+             <property name="text">
+              <string>product 4</string>
+             </property>
+            </item>
+            <item row="3" column="2">
+             <property name="text">
+              <string>250</string>
+             </property>
+            </item>
+            <item row="3" column="3">
+             <property name="text">
+              <string>4</string>
+             </property>
+            </item>
+            <item row="3" column="4">
+             <property name="text">
+              <string>c4</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="groupBox">
+            <property name="title">
+             <string>Product Details:</string>
+            </property>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>30</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Product ID:</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditProductID">
+             <property name="geometry">
+              <rect>
+               <x>112</x>
+               <y>30</y>
+               <width>591</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditCateID">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>220</y>
+               <width>591</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>120</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Unit Price:</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditQuantity">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>170</y>
+               <width>591</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>18</x>
+               <y>220</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Cate ID</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditUnitPrice">
+             <property name="geometry">
+              <rect>
+               <x>110</x>
+               <y>120</y>
+               <width>591</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>18</x>
+               <y>170</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quantity:</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEditProductName">
+             <property name="geometry">
+              <rect>
+               <x>112</x>
+               <y>80</y>
+               <width>591</width>
+               <height>22</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>80</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Product Name:</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButtonClear">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>300</y>
+               <width>141</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Clear</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButtonSave">
+             <property name="geometry">
+              <rect>
+               <x>330</x>
+               <y>300</y>
+               <width>141</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Save</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>510</x>
+               <y>300</y>
+               <width>141</width>
+               <height>61</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Delete</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1023</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
